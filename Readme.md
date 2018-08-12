@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Mykola Nikulitsa](https://up.htmlacademy.ru/htmlcss/22/user/405795).
-* Наставник: `Неизвестно`.
+* Наставник: `Keks`.
 
 ---
 
