@@ -29,36 +29,58 @@
         <form class="price-range" action="https://echo.htmlacademy.ru" method="post">
           <fieldset>
             <legend>СТОИМОСТЬ:</legend>
-            <input type="range" id="price-range-1" min="10" max="50" step="5">
-            <label for="price-range-1"></label>
-            <label for="from">от</label>
-            <input type="number" placeholder="0" min="0" max="15000" step="100" id="from">
-            <label for="to">до</label>
-            <input type="number" placeholder="15000" min="1" max="15000" step="100" id="to">
+            <p>
+              <input type="range" id="price-range-1" min="10" max="50" step="5">
+              <label for="price-range-1"></label>
+            </p>
+            <p>  
+              <label for="from">от</label>
+              <input type="number" placeholder="0" min="0" max="15000" step="100" id="from">
+            </p> 
+            <p>
+              <label for="to">до</label>
+              <input type="number" placeholder="15000" min="1" max="15000" step="100" id="to">
+            </p>  
           </fieldset>
           <fieldset>
             <legend>СЕТКА:</legend>
-            <input type="radio" id="adaptive" name="switch-field" value="Адаптивная" checked>
-            <label for="adaptive">Адаптивная</label>
-            <input type="radio" id="fixed" name="switch-field" value="Фиксированная">
-            <label for="fixed">Фиксированная</label>
-            <input type="radio" id="rubber" name="switch-field" value="Резиновая">
-            <label for="rubber">Резиновая</label>
+            <p>
+              <input type="radio" id="adaptive" name="switch-field" value="Адаптивная" checked>
+              <label for="adaptive">Адаптивная</label>
+            </p>  
+            <p>
+              <input type="radio" id="fixed" name="switch-field" value="Фиксированная">
+              <label for="fixed">Фиксированная</label>
+            </p>  
+            <p>
+              <input type="radio" id="rubber" name="switch-field" value="Резиновая">
+              <label for="rubber">Резиновая</label>
+            </p>  
           </fieldset>
           <fieldset>
             <legend>ОСОБЕННОСТИ:</legend>
-            <input type="checkbox" id="slider" name="slider-check" checked>
-            <label for="slider">Слайдер</label>
-            <input type="checkbox" id="block" name="block-check">
-            <label for="block">Блок преимуществ</label>
-            <input type="checkbox" id="news" name="news-check" checked>
-            <label for="news">Новости</label>
-            <input type="checkbox" id="gallery" name="gallery-check">
-            <label for="gallery">Галерея</label>
-            <input type="checkbox" id="basket-1" name="basket-check">
-            <label for="basket-1">Корзина</label>
+            <p>
+              <input type="checkbox" id="slider" name="slider-check" checked>
+              <label for="slider">Слайдер</label>
+            </p>  
+            <p>
+              <input type="checkbox" id="block" name="block-check">
+              <label for="block">Блок преимуществ</label>
+            </p>  
+            <p>
+              <input type="checkbox" id="news" name="news-check" checked>
+              <label for="news">Новости</label>
+            </p>
+            <p>  
+              <input type="checkbox" id="gallery" name="gallery-check">
+              <label for="gallery">Галерея</label>
+            </p>
+            <p>  
+              <input type="checkbox" id="basket-1" name="basket-check">
+              <label for="basket-1">Корзина</label>
+            </p>  
           </fieldset>
-          <input type="submit" value="ПОКАЗАТЬ">
+          <button type="button">ПОКАЗАТЬ</button>
         </form>
       </section>
       <div class="criteria">
