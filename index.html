@@ -27,7 +27,7 @@
         <section class="main-description">
           <p>Долго, дорого,<br>скрупулезно.</p>
           <h1>Математически выверенный дизайн для вашего сайта или мобильного приложения</h1>
-          <a class="button" href="#">Узнать больше</a>
+          <a class="button" href="catalog.html">Узнать больше</a>
         </section>
         <section class="slide">
           <a href="#">
@@ -65,29 +65,29 @@
   			<ul class="services-list">
   				<li class="web-sites">
   					<a href="catalog.html"><img src="img/illustration-1.png" width="300" height="145" alt="Изображение сайта"></a>
-  					<h3 class="sites-heading"><a href="catalog.html">Веб-Сайты</a></h3>
+  					<h3 class="third-heading"><a href="catalog.html">Веб-Сайты</a></h3>
   					<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-  					<a class="button" href="basket.html">Заказать</a>
+  					<a class="button button-1" href="basket.html">Заказать</a>
   				</li>
   				<li class="apps">
   					<a href="catalog.html"><img src="img/illustration-2.png" width="300" height="145" alt="Изображение приложения"></a>
-  					<h3 class="apps-heading"><a href="catalog.html">Приложения</a></h3>
+  					<h3 class="third-heading"><a href="catalog.html">Приложения</a></h3>
   					<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-  					<a class="button" href="basket.html">Заказать</a>
+  					<a class="button button-2" href="basket.html">Заказать</a>
   				</li>
-  				<li class="presantations">
-  					<a href="catalog.html"><img src="img/illustration-2.png" width="300" height="145" alt="Изображение презентации"></a>
-  					<h3 class="presantation-heading"><a href="catalog.html">Презентации</a></h3>
+  				<li class="presentations">
+  					<a href="catalog.html"><img src="img/illustration-3.png" width="300" height="145" alt="Изображение презентации"></a>
+  					<h3 class="third-heading"><a href="catalog.html">Презентации</a></h3>
   					<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-  					<a class="button" href="basket.html">Заказать</a>
+  					<a class="button button-3" href="basket.html">Заказать</a>
   				</li>
   			</ul>
   		</section>
   		<section class="amply-description">
   			<h2 class="visually-hidden">Детальное описание</h2>
-  			<b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
-  			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы</p>
-  			<b>Выполняем заказы на разработку:</b>
+  			<b class="studio">Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
+  			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+  			<b class="studio-description">Выполняем заказы на разработку:</b>
   			<ul class="amply-description-list">
   				<li>Веб-сайтов любой сложности</li>
   				<li>Мобильных приложений</li>
@@ -100,7 +100,7 @@
   					<img src="img/nerds-illustration.png" width="360" height="210" alt="Изображение логотипа дизайн-студии">
   				</a>
   			</p>
-  			<table>
+  			<table class="table">
   				<caption>
   					С 2004 года любим точность во всем:
   				</caption>
@@ -122,6 +122,7 @@
   		</div>
   		<article class="our-works">
   			<h2 class="visually-hidden">Наши работы</h2>
+        <img src="img/divide.png" alt="Полупрозрачная линия">
   			<ul class="our-works-list">
   				<li class="html-academy">
   					<a href="https://htmlacademy.ru/intensive/htmlcss">
@@ -144,32 +145,35 @@
   					</a>
   				</li>
   			</ul>
+        <img src="img/divide.png" alt="Полупрозрачная линия">
   		</article>	
   	</main>
   	<footer class="main-footer">
-      <p class="write-us">Напишите нам</p>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <p>
-          <label for="name">Ваше имя:</label>
-          <input type="text" name="Ваше имя:" value="" placeholder="Имя Фамилия" id="name">
-        </p>
-        <p>
-          <label for="email">Ваш e-mail:</label>
-          <input type="text" name="Ваш e-mail:" value="" placeholder="email@example.com" id="email">
-        </p>
-        <p>
-          <label for="text">Текст письма:</label>
-          <input type="text" name="Текст письма:" value="" placeholder="В свободной форме" id="text">
-        </p>
-        <button class="button" type="submit">Отправить</button>
-        <button class="modal-close" type="button">Закрыть</button>
-      </form>
+      <section class="modal">
+        <p class="write-us">Напишите нам</p>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="appointment-item">
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="Ваше имя:" value="" placeholder="Имя Фамилия" id="name">
+          </p>
+          <p class="appointment-item">
+            <label for="email">Ваш e-mail:</label>
+            <input type="text" name="Ваш e-mail:" value="" placeholder="email@example.com" id="email">
+          </p>
+          <p class="appointment-item">
+            <label for="text">Текст письма:</label>
+            <input type="text" name="Текст письма:" value="" placeholder="В свободной форме" id="text">
+          </p>
+          <button class="button" type="submit">Отправить</button>
+          <button class="modal-close" type="button">Закрыть</button>
+        </form>
+      </section>
   		<p class="map">
   			<a href="#">
   				<img src="img/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-петербург">
   			</a>
   		</p>
-  		<div class="adress">
+  		<article class="adress">
   			<b>Nerds Design Studio</b>
   			<p>
   				191186, Санкт-Петербург,<br>
@@ -177,19 +181,19 @@
   				тел. +7(812)2757575
   			</p>
   			<a class="button" href="write-us.html">Напишите нам</a>
-  		</div>
+  		</article>
   	</footer>
   	<footer class="footer-copyright">
   		<div class="footer-social">
-  			<ul>
+  			<ul class="social-links">
 				<li class="vk-link">
-					<a href="#">Vkontakte</a>
+					<a class="social-button" href="#">Vkontakte</a>
 				</li>
 				<li class="facebook-link">
-					<a href="#">Facebook</a>
+					<a class="social-button" href="#">Facebook</a>
 				</li>
 				<li class="insta-link">
-					<a href="#">Instagram</a>
+					<a class="social-button" href="#">Instagram</a>
 				</li>
 			</ul>	
   		</div>
