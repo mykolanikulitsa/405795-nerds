@@ -258,3 +258,112 @@ a {
 	color: #444444;
 	text-transform: none;
 }
+
+
+/* Дополнительные стили для каталога */
+
+
+
+.main-heading {
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: 500;
+	text-align: center;
+}
+.filters fieldset {
+	border: none;
+}
+.filters legend {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.range-type label {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #283136;
+}
+.radio-type label,
+.checkbox-type label {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #283136;
+	text-transform: none;
+}
+.price-range button {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #eeeeee;
+	border: none;
+}
+.sort {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.criteria a {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #eeeeee;
+}
+.criteria a:first-of-type {
+	color: #000000;
+}
+.catalog-list li {
+	list-style: none;
+}
+.site-name {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000000;
+}
+.heading-links span {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	text-transform: none;
+	color: #666666;
+}
+.heading-links button {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #fb565a;
+}
+.pagination-list {
+	list-style: none;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 500;
+}
+.pagination-item a {
+	color: #000000;
+    text-transform: uppercase;
+	background-color: #eeeeee;
+}
+.pagination-item-current a {
+	color: #000000;
+
+    background-color: transparent;
+    border: 2px solid #eeeeee;
+}
+.modal-close {
+	background: none;
+	border: none;
+}
+
+
+/* Add all basic styles */
