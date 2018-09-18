@@ -23,14 +23,14 @@
   				<li><a href="#">Корзина</a></li>
   			</ul>
   		</nav>
-  		<h1>Магазин Готовых Шаблонов</h1>
+  		<h1 class="main-heading">Магазин Готовых Шаблонов</h1>
   	</header>
   	<main class="container">
   		<section class="filters">
         <h2 class="visually-hidden">Фильтр предложений</h2>
         <!-- Здесь будет форма -->
         <form class="price-range" action="https://echo.htmlacademy.ru" method="post">
-          <fieldset>
+          <fieldset class="range-type">
             <legend>СТОИМОСТЬ:</legend>
             <p>
               <input type="range" id="price-range-1" min="10" max="50" step="5">
@@ -45,7 +45,7 @@
               <input type="number" placeholder="15000" min="1" max="15000" step="100" id="to">
             </p>  
           </fieldset>
-          <fieldset>
+          <fieldset class="radio-type">
             <legend>СЕТКА:</legend>
             <p>
               <input type="radio" id="adaptive" name="switch-field" value="Адаптивная" checked>
@@ -60,7 +60,7 @@
               <label for="rubber">Резиновая</label>
             </p>  
           </fieldset>
-          <fieldset>
+          <fieldset class="checkbox-type">
             <legend>ОСОБЕННОСТИ:</legend>
             <p>
               <input type="checkbox" id="slider" name="slider-check" checked>
@@ -101,11 +101,11 @@
 						    <img src="img/img-sedona.jpg" width="360" height="575" alt="Сайт Sedona">
 					     </a>	
 				    </p>
-      			<h3>
+      			<h3 class="heading-links">
       				<a href="#">
-      					<b class="sedona">Sedona</b>
+      					<b class="sedona site-name">Sedona</b>
       					<span class="sedona-desc">Информационный сайт для туристов</span>
-      					<b class="sedona-price">9 900 РУБ.</b>
+      					<button class="button sedona-price">9 900 РУБ.</button>
       				</a>
       			</h3>
       		</li>
@@ -115,11 +115,11 @@
 						    <img src="img/img-pink.jpg" width="360" height="575" alt="Сайт Pink">
 					     </a>	
 				    </p>
-            <h3>
+            <h3 class="heading-links">
               <a href="#">
-                <b class="pink">Pink</b>
+                <b class="pink site-name">Pink</b>
                 <span class="pink-desc">Продуктовый лендинг приложения для IOS и Android</span>
-                <b class="pink-price">9 900 РУБ.</b>
+                <button class="button pink-price">9 900 РУБ.</button>
               </a>
             </h3>
       		</li>
@@ -129,11 +129,11 @@
 						    <img src="img/img-barbershop.jpg" width="360" height="575" alt="Сайт Borodinski">
 					     </a>	
 				    </p>
-            <h3>
+            <h3 class="heading-links">
               <a href="#">
-                <b class="borodinski">Barbershop</b>
+                <b class="borodinski site-name">Barbershop</b>
                 <span class="borodinski-desc">Сайт салона красоты. Для мужчин, да.</span>
-                <b class="borodinski-price">9 900 РУБ.</b>
+                <button class="button borodinski-price">9 900 РУБ.</button>
               </a>
             </h3>
       		</li>
@@ -143,11 +143,11 @@
 					     	<img src="img/img-mishka.jpg" width="360" height="575" alt="Сайт Mishka">
 					     </a>	
 				    </p>
-            <h3>
+            <h3 class="heading-links">
               <a href="#">
-                <b class="mishka">Mishka</b>
+                <b class="mishka site-name">Mishka</b>
                 <span class="mishka-desc">Интернет-магазин вязаных игрушек</span>
-                <b class="mishka-price">9 900 РУБ.</b>
+                <button class="button mishka-price">9 900 РУБ.</button>
               </a>
             </h3>
       		</li>
@@ -157,11 +157,12 @@
 						    <img src="img/img-aplus.jpg" width="360" height="575" alt="Сайт Aplus">
 					     </a>	
 				    </p>
-            <h3>
+            <h3 class="heading-links">
               <a href="#">
-                <b class="aplus">A Plus</b>
+                <b class="aplus site-name">A Plus</b>
                 <span class="aplus-desc">Лендинг курсов повышения квалификации</span>
-                <b class="aplus-price">9 900 РУБ.</b>
+                <button class="button aplus-price">9 900 РУБ.
+                </button> 
               </a>
             </h3>
       		</li>
@@ -171,11 +172,12 @@
 						    <img src="img/img-kvast.jpg" width="360" height="575" alt="Сайт Kvast">
 					     </a>	
 				    </p>
-            <h3>
+            <h3 class="heading-links">
               <a href="#">
-                <b class="kvast">Sedona</b>
-                <span class="kvast-desc">Информационный сайт для туристов</span>
-                <b class="kvast-price">9 900 РУБ.</b>
+                <b class="kvast site-name">Кваст</b>
+                <span class="kvast-desc">Промо-сайт производителя крафтового кваса</span>
+                <button class="button kvast-price">9 900 РУБ.
+                </button>
               </a>
             </h3>
       		</li>
@@ -184,7 +186,7 @@
 			<li class="pagination-item pagination-item-current"><a href="#">1</a></li>
 			<li class="pagination-item"><a href="#">2</a></li>
 			<li class="pagination-item"><a href="#">3</a></li>
-			<li class="pagination-item">Следующая</li>
+			<li class="pagination-item"><a href="#">Следующая</a></li>
 		</ul>
       </section>
   	</main>
@@ -205,7 +207,7 @@
             <input type="text" name="Текст письма:" value="" placeholder="В свободной форме" id="text">
           </p>
           <button class="button" type="submit">Отправить</button>
-          <button class="modal-close" type="button">Закрыть</button>
+          <button class="modal-close" type="button"><img src="img/close-cross.svg" alt="Close feedback form"></button>
         </form>
       </section>
   		<p class="map">
