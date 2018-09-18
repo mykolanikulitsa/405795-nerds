@@ -15,12 +15,12 @@
   			</a>
   			<ul class="nav-list">
   				<li><a href="index.html">Студия</a></li>
-  				<li><a href="clients.html">Клиенты</a></li>
+  				<li><a href="#">Клиенты</a></li>
   				<li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
-  				<li><a href="contacts.html">Контакты</a></li>
+  				<li><a href="#">Контакты</a></li>
   			</ul>
   			<ul class="nav-basket">
-  				<li><a href="basket.html">Корзина</a></li>
+  				<li><a href="#">Корзина</a></li>
   			</ul>
   		</nav>
   		<h1>Магазин Готовых Шаблонов</h1>
@@ -189,29 +189,31 @@
       </section>
   	</main>
   	<footer class="main-footer">
-      <p class="write-us">Напишите нам</p>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <p>
-          <label for="name">Ваше имя:</label>
-          <input type="text" name="Ваше имя:" value="" placeholder="Имя Фамилия" id="name">
-        </p>
-        <p>
-          <label for="email">Ваш e-mail:</label>
-          <input type="text" name="Ваш e-mail:" value="" placeholder="email@example.com" id="email">
-        </p>
-        <p>
-          <label for="text">Текст письма:</label>
-          <input type="text" name="Текст письма:" value="" placeholder="В свободной форме" id="text">
-        </p>
-        <button class="button" type="submit">Отправить</button>
-        <button class="modal-close" type="button">Закрыть</button>
-      </form>
+      <section class="modal">
+        <p class="write-us">Напишите нам</p>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="appointment-item">
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="Ваше имя:" value="" placeholder="Имя Фамилия" id="name">
+          </p>
+          <p class="appointment-item">
+            <label for="email">Ваш e-mail:</label>
+            <input type="text" name="Ваш e-mail:" value="" placeholder="email@example.com" id="email">
+          </p>
+          <p class="appointment-item">
+            <label for="text">Текст письма:</label>
+            <input type="text" name="Текст письма:" value="" placeholder="В свободной форме" id="text">
+          </p>
+          <button class="button" type="submit">Отправить</button>
+          <button class="modal-close" type="button">Закрыть</button>
+        </form>
+      </section>
   		<p class="map">
   			<a href="#">
-  				<img src="img/map.jpg" width="1200" height="400" alt="Как к нам проехать, карта">
+  				<img src="img/map.jpg" width="780" height="560" alt="Как к нам проехать, карта">
   			</a>
   		</p>
-  		<div class="adress">
+  		<article class="adress">
   			<b>Nerds Design Studio</b>
   			<p>
   				191186, Санкт-Петербург,<br>
@@ -219,19 +221,19 @@
   				тел. +7(812)2757575
   			</p>
   			<a class="button" href="wirte-us.html">Напишите нам</a>
-  		</div>
+  		</article>
   	</footer>
   	<footer class="footer-copyright">
   		<div class="footer-social">
-  			<ul>
+  			<ul class="social-links">
 				<li class="vk-link">
-					<a href="#">Vkontakte</a>
+					<a class="social-button" href="#">Vkontakte</a>
 				</li>
 				<li class="facebook-link">
-					<a href="#">Facebook</a>
+					<a class="social-button" href="#">Facebook</a>
 				</li>
 				<li class="insta-link">
-					<a href="#">Instagram</a>
+					<a class="social-button" href="#">Instagram</a>
 				</li>
 			</ul>	
   		</div>
